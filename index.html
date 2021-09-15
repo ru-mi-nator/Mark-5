@@ -4,131 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>RuMi's portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Rudra's Component Library</h1>
-    <p>This is my component library which will help me in designing each element consistently. It ensures that
-        all my projects have consistent styling.
-    </p>
 
-    <hr>
-
-    <h2>@containers</h2>
-
-    <h3>fluid container</h3>
-    <h3>center container</h3>
-    <hr>
-
-    <h2>@links</h2>
-
-    <a href="https://www.youtube.com/watch?v=7UfHJyh9vyY">Sad People - Kid Cudi</a>
-    <a href="/">Secondary Link</a>
-    <hr>
-
-    <h2>@lists</h2>
-    <h3>unordered List</h3>
-    
-    <ul>
-        <li>I1</li>
-        <li>I2</li>
-        <li>I3</li>
-    </ul>
-
-    <h3>UO Inline list </h3>
-    <ul>
-        <li>Iline1</li>
-        <li>Inline2</li>
-        <li>Inline3</li>
-
-    </ul>
-
-    <h3>reverse ordered list</h3>
-    <ol>
-        <li>milk</li>
-        <li>toast</li>
-        <li>eggs</li>
-    </ol>
-
-    <h2>@nav</h2>
-
-    <nav>
-        <div>IAmBrand</div>
-        <ul>
-            <li>
-                <a href="">home</a>
+    <nav class="navigation" >
+        <div class="nav-brand">RuMi</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
             </li>
-            <li>
-                <a href="">products</a>
+            <li class="list-item-inline">
+                <a class="link" href="projects.html">projects</a>
             </li>
-            <li>
-                <a href="">about</a>
+            <li class="list-item-inline">
+                <a class="link" href="blogs.html">blogs</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
 
-    <h2>@header</h2>
-    <header>
-        <img src="images/hero-image.svg" alt="">
-        <h1>heading inside hero</h1>
+    <header class="hero">
+        <img class="hero-img" src="images/dp.png" alt="">
+        <h1 class="hero-heading">rudra mishra the <span class="heading-inverted">web developer</span> </h1>
     </header>
 
-    <hr>
 
-    <h2>@section</h2>
-
-    <section>
-        <h3>white section</h3>
-        <p>will have white background</p>
+    <section class="section ow">
+        <div class="container container-centre">
+            <h1>technologies</h1>
+            <p>will have off white background. Tailwind includes an expertly-crafted default color palette out-of-the-box that is a great starting point if you don’t have your own specific branding in mind.</p>
+        </div>
     </section>
 
-    <section>
-        <h3>off-white section</h3>
-        <p>will have off white background</p>
+
+    <section class="section">
+        <div class="container container-centre">
+            <h1>blogs</h1>
+            <p>will have white background</p>
+            <a class="links primary-links" href="https://www.youtube.com/watch?v=7UfHJyh9vyY">See Blogs</a>
+        </div>
     </section>
 
-    <hr>
 
-    <h2>@footer</h2>
+    <section class="section ow">
+        <div class="container container-centre">
+            <h1>projects</h1>
+            <p>will have white background</p>
+            <a class="links primary-links" href="https://www.youtube.com/watch?v=7UfHJyh9vyY">See Projects</a>
+        </div>
+    </section>
 
-    <footer>
-        <div>some smalle heading inside footer</div>
-        <ul>
-            <li>social1</li>
-            <li>social2</li>
-            <li>social3</li>
+
+    <footer class="footer">
+        <div class="footer-heading">connect with me here</div>
+        <ul class="social-links">
+            <li class="list-item-inline"><a class="links" href="">twitter</a></li>
+            <li class="list-item-inline"><a class="links" href="">instagram</a></li>
+            <li class="list-item-inline"><a class="links" href="">linkedin</a></li>
         </ul>
     </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 
 
     
-
 </body>
 </html>

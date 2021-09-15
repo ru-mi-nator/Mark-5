@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+    --primary-color: #D11830;
+    --dark-gray: #4B5563;
+    --off-white: #E5E7EB;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.container {
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+    padding: 0rem 1rem;
+} 
+
+.container-centre {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* links */
+
+.links{
+    text-decoration: none;
+    padding: 0.5rem, 1rem;
+
+}
+
+.primary-links {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    padding: 0.5rem;
+}
+
+.secondary-links {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+/* lists */
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+/* navigation */
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem 1rem 0.2rem 1rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+    font-size: x-large;
+}
+
+.navigation .link{
+    color: white;
+    text-decoration: none;
+}
+
+.navigation .nav-brand{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/* hero */
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: ;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    padding: 2rem;
+    color: var(--dark-gray);
+    text-align: center;
+}
+
+.hero .heading-inverted{
+    color: var(--primary-color)
+}
+
+/* sections */
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+/* footers */
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 2rem;
+    color: white;
+    text-align: center;
+    border-top-right-radius: 2rem;
+}
+
+.footer-heading{
+    font-weight: bolder;
+    font-size: large;
+}
+
+.footer .links{
+    color: white;
+}
+
+.footer .ul{
+    padding-inline-start: 0px;
+}
