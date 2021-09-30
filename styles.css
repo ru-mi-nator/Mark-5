@@ -24,11 +24,15 @@ h1 {
     /* padding-left: 1rem;
     padding-right: 1rem; */
     padding: 0rem 1rem;
+
 } 
 
 .container-centre {
-    max-width: 600px;
+    max-width: 750px;
     margin: auto;
+    font-size: larger;
+    word-spacing: 0.5rem;
+
 }
 
 /* links */
@@ -43,7 +47,7 @@ h1 {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 p {
@@ -69,6 +73,11 @@ p {
 }
 
 /* navigation */
+
+.nav-brand {
+    font-family: 'Press Start 2P', cursive;
+    font-size: larger;
+}
 
 .navigation {
     background-color: var(--primary-color);
@@ -166,4 +175,9 @@ p {
     display: block;
     margin: auto;
     margin-bottom: 2rem;
+}
+
+.tech-list {
+    display: grid;
+    grid-template-columns: auto auto;
 }
